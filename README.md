@@ -1,43 +1,32 @@
-# Java DSA ☕🧩
+# Java DSA
 
-A curated collection of Data Structures and Algorithms implemented in pure Java. 
+My Java practice programs for data structures and algorithms.
 
-![Java](https://img.shields.io/badge/Java-11%2B-orange) ![DSA](https://img.shields.io/badge/topic-Data%20Structures-brightgreen)
+I started with arrays and linked lists and am adding more problems as I practice. The programs in `programs/` are small examples with a `main()` method so I can run them one by one.
 
----
+## Programs
 
-## 🚀 About This Repository
+| Topic | Files |
+| --- | --- |
+| Arrays | ReverseArray, SecondLargest, RotateArray |
+| Searching | LinearSearch, BinarySearch |
+| Sorting | BubbleSort, SelectionSort, InsertionSort |
+| Linked list | ReverseLinkedList |
+| Stack | StackUsingArray |
+| Queue | QueueUsingArray |
+| Recursion | FactorialRecursion |
 
-This repository serves as a personal reference and learning hub for fundamental computer science concepts. It contains clean, well-documented implementations of various data structures and algorithms written in Java.
+All the above files are in the `programs` folder and have a `.java` extension.
 
-Whether you're brushing up on your CS fundamentals, preparing for interviews, or just love algorithmic problem solving, you'll find elegant solutions here.
+## Run a program
 
----
-
-## 📂 Contents
-
-Currently included in this repository:
-
-| Structure / Concept | File | Description |
-| :--- | :--- | :--- |
-| **Static Arrays** | `2.java` | Core operations for fixed-size arrays (insertion, deletion, traversal). |
-| **Singly Linked Lists** | `5.java` | Dynamic list implementation with head/tail tracking and sequential operations. |
-
-*(More structures and algorithms are constantly being added!)*
-
----
-
-## 💻 How to Run
-
-Since these are pure Java files without external dependencies, you can compile and run them directly using the standard Java Development Kit (JDK).
+With a JDK installed, from the repository folder:
 
 ```bash
-# Example: Compiling and running the Singly Linked List
-javac 5.java
-java SinglyLinkedList
+javac programs/BubbleSort.java
+java -cp programs BubbleSort
 ```
 
----
+Change `BubbleSort` to whichever program you want to run.
 
-## 🤝 Contributing
-Feel free to fork this project, submit PRs, or use these snippets for your own learning!
+The older `2.java` and `5.java` files are my earlier array and linked-list notes. Their public class names differ from their filenames, so rename them to `StaticArray.java` and `SinglyLinkedList.java` if you want to compile them separately.
