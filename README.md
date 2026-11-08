@@ -69,3 +69,25 @@ java -cp programs/medium ThreeSum
 Each file uses sample values in `main()`. Change the values to try other cases.
 
 The older `2.java` and `5.java` files are my first array and linked-list notes. Their public class names do not match the filenames, so to compile those separately rename them to `StaticArray.java` and `SinglyLinkedList.java`.
+
+## Another 50 medium-level programs
+
+I added 50 more individual Java programs to `programs/medium/`, on top of the earlier 25 easy and 25 medium examples. The new files include:
+
+| Topic | New programs |
+| --- | --- |
+| Arrays, searching, math | TwoSumSorted, FindDuplicateNumber, MajorityElementII, LongestConsecutive, KthLargestQuickSelect, MergeSortedArrays, FindPeakElement, SearchRange, KokoEatingBananas, CapacityToShipPackages, SubarraysDivisibleByK, ContinuousSubarraySum |
+| Sliding window and strings | CharacterReplacement, MinimumWindowSubstring, PartitionLabels, WordBreak, LongestSubarrayOnesAfterDeletion, MaxConsecutiveOnesIII, SimplifyPath, ValidParenthesisString |
+| Stack, greedy, cache | EvaluateReversePolish, MinStackExample, NextGreaterElementCircular, LargestRectangleHistogram, SlidingWindowMaximum, LRUCacheDemo, AsteroidCollision, CarFleet, JumpGameII |
+| Backtracking | PalindromePartitioning, CombinationSum, Permutations, SubsetsWithDuplicates, LetterCombinations |
+| Linked lists | ReorderLinkedList, MergeKSortedLists, SortLinkedList |
+| Trees / BST | KthSmallestBST, LowestCommonAncestor, ConstructTreePreorderInorder |
+| Graphs / BFS | CourseSchedule, RottingOranges, CloneGraph, ShortestPathBinaryMatrix |
+| Dynamic programming | HouseRobber, LongestIncreasingSubsequence, LongestPalindromicSubsequence, DecodeWays, UniquePaths, MinimumPathSum |
+
+Run a new one like this:
+
+```bash
+javac programs/medium/CarFleet.java
+java -cp programs/medium CarFleet
+```
