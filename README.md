@@ -2,9 +2,11 @@
 
 My Java practice programs for data structures and algorithms.
 
-I started with arrays and linked lists and am adding more problems as I practice. The programs in `programs/` are small examples with a `main()` method so I can run them one by one.
+I started with arrays and linked lists and am adding more problems as I practice. Most files have their own `main()` method so I can run them separately.
 
-## Programs
+## Basic programs
+
+These are inside `programs/`.
 
 | Topic | Files |
 | --- | --- |
@@ -16,17 +18,35 @@ I started with arrays and linked lists and am adding more problems as I practice
 | Queue | QueueUsingArray |
 | Recursion | FactorialRecursion |
 
-All the above files are in the `programs` folder and have a `.java` extension.
+## Medium problems
 
-## Run a program
+These are inside `programs/medium/`.
 
-With a JDK installed, from the repository folder:
+| Topic | Files |
+| --- | --- |
+| Arrays / two pointers | ThreeSum, MaximumSubarray, ProductExceptSelf |
+| Binary search | SearchRotatedArray |
+| HashMap / prefix sum | SubarraySumK, TopKFrequent |
+| Sliding window | LongestSubstring |
+| Intervals | MergeIntervals |
+| Stack | DailyTemperatures |
+| Linked list | LinkedListCycleStart, AddTwoNumbers |
+| DFS | NumberOfIslands |
+| Dynamic programming | CoinChange |
+| Backtracking | GenerateParentheses |
+
+## Running the code
+
+With Java installed, from the repo folder:
 
 ```bash
 javac programs/BubbleSort.java
 java -cp programs BubbleSort
+
+javac programs/medium/ThreeSum.java
+java -cp programs/medium ThreeSum
 ```
 
-Change `BubbleSort` to whichever program you want to run.
+Each file uses sample values in `main()`. Change the values to try other cases.
 
-The older `2.java` and `5.java` files are my earlier array and linked-list notes. Their public class names differ from their filenames, so rename them to `StaticArray.java` and `SinglyLinkedList.java` if you want to compile them separately.
+The older `2.java` and `5.java` files are my first array and linked-list notes. Their public class names do not match the filenames, so to compile those separately rename them to `StaticArray.java` and `SinglyLinkedList.java`.
