@@ -35,6 +35,25 @@ These are inside `programs/medium/`.
 | Dynamic programming | CoinChange |
 | Backtracking | GenerateParentheses |
 
+## More practice problems
+
+Added 50 extra examples: 25 easy problems in `programs/easy/` and 25 more medium problems in `programs/medium/`.
+
+| Level | Topics | Examples |
+| --- | --- | --- |
+| Easy (25 new) | Arrays, strings, HashMap, numbers, matrices | TwoSum, MoveZeroes, ValidAnagram, FibonacciSeries, MatrixTranspose |
+| Medium (25 new) | Two pointers, sliding window, stacks, binary trees, linked lists | NextPermutation, TrappingRainWater, DecodeString, ValidateBST, RemoveNthNodeFromEnd |
+
+Each Java file has its own `main()` method with sample values. These are separate programs; compile and run one class at a time.
+
+```bash
+javac programs/easy/TwoSum.java
+java -cp programs/easy TwoSum
+
+javac programs/medium/SortColors.java
+java -cp programs/medium SortColors
+```
+
 ## Running the code
 
 With Java installed, from the repo folder:
